@@ -7,9 +7,8 @@ using namespace std;
 
 int main() {
     srand(time(0));
-int minNumber,maxNumber;
-    cin>>minNnumbr;
-    cin>>maxNumber;
+    const int minNumber = 1;
+    const int maxNumber = 100;
 
     char playAgain;
     
@@ -49,4 +48,4 @@ int minNumber,maxNumber;
     cout << "Thanks for playing! Goodbye." << endl;
     
     return 0;
-}
+/MEET SHAH
