@@ -11,7 +11,11 @@ int main() {
     const int maxNumber = 100;
 
     char playAgain;
-    
+   int min,max;
+    cout<<"enter the min number"<<endl;
+    cin>>min;
+    cout<<"enter the maxmimun number"<<endl;
+    cin>>max;
     do {
         int secretNumber = rand() % (maxNumber - minNumber + 1) + minNumber;
         int attempts = 0;
